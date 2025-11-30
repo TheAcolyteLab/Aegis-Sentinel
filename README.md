@@ -5,9 +5,9 @@ Aegis Sentinel is an autonomous, multi-agent framework designed to assess, synth
 Prerequisites
 Python 3.10+
 
-Ollama Installation: You must have Ollama installed and running locally to serve the LLM.
+[] Ollama Installation: You must have Ollama installed and running locally to serve the LLM.
 
-Model Download: Download the required local model (Gemma 2B) using Ollama:
+[] Model Download: Download the required local model (Gemma 2B) using Ollama:
 
 Bash
 
@@ -17,26 +17,25 @@ Clone the Repository: (Assume this project is available on GitHub)
 
 Bash
 
-git clone [repository_url]
-cd aegis-sentinel
-Create and Activate Virtual Environment:
+[] git clone [repository_url]
+[] cd aegis-sentinel
+[] Create and Activate Virtual Environment:
 
 Bash
 
 # Create the environment
-python -m venv ssia_env
+[] python -m venv ssia_env
 
 # Activate (Windows PowerShell):
-.\ssia_env\Scripts\Activate.ps1
+[] .\ssia_env\Scripts\Activate.ps1
 
 # Activate (Linux/macOS/Git Bash):
-source ssia_env/bin/activate
-Install Dependencies:
+[] source ssia_env/bin/activate
+[] Install Dependencies:
 
 Bash
-
-pip install -r requirements.txt
-# (Assuming requirements.txt contains: requests, pydantic, opentelemetry-sdk, etc.)
+#Install
+[] requests, pydantic, opentelemetry-sdk)
 Running a Mission
 The core execution loop is handled by the main_runner.py (assumed entry point).
 
