@@ -5,7 +5,7 @@ Aegis Sentinel is an autonomous, multi-agent framework designed to assess, synth
 Prerequisites
 Python 3.10+
 
-[] Ollama Installation: You must have Ollama installed and running locally to serve the LLM.
+[ ] Ollama Installation: You must have Ollama installed and running locally to serve the LLM.
 
 [] Model Download: Download the required local model (Gemma 2B) using Ollama:
 
